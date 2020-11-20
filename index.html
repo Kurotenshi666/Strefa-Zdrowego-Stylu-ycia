@@ -1,0 +1,138 @@
+<!DOCTAPE HTML> 
+<html lang="pl">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+
+	<title>Strefa Zdrowego Stylu Życia</title>
+
+	<meta name="description" content="STREFA" />
+
+	<meta name="keywords" content="STREFA"/>
+	
+	
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+  <SCRIPT LANGUAGE="JavaScript">
+
+miesiac = new Array(12)
+miesiac[0] = "stycznia "
+miesiac[1] = "lutego "
+miesiac[2] = "marca "
+miesiac[3] = "kwietnia "
+miesiac[4] = "maja "
+miesiac[5] = "czerwca "
+miesiac[6] = "lipca "
+miesiac[7] = "sierpnia "
+miesiac[8] = "września "
+miesiac[9] = "października "
+miesiac[10] = "listopada "
+miesiac[11] = "grudnia "
+dzien = new Array(7)
+dzien[0] = "niedziela "
+dzien[1] = "poniedziałek "
+dzien[2] = "wtorek "
+dzien[3] = "środa "
+dzien[4] = "czwartek "
+dzien[5] = "piątek "
+dzien[6] = "sobota "
+function podaj_date(){
+var Dzisiaj = new Date()
+var Tygodnia = Dzisiaj.getDay()
+var Miesiac = Dzisiaj.getMonth()
+var Dnia = Dzisiaj.getDate()
+var Rok = Dzisiaj.getFullYear()
+if(Rok <= 99) Rok += 1900
+return dzien[Tygodnia] + "," + " " + Dnia + " " + miesiac[Miesiac] + ", " + Rok +"r." }
+
+</SCRIPT>
+<SCRIPT>document.write("Dziś jest " + podaj_date())</SCRIPT>
+
+</head>
+
+<body>
+
+	<div id="kontener">
+
+
+		<div id="baner">
+
+		<center><IMG SRC="logo.jpg" alt= baner width="100%"></center>
+		</div>
+
+
+
+
+		<div id="menu">
+</br>
+</br>
+<a href="index.html"><IMG SRC="Strona glowna.jpg" width="100%"></a>
+</br>
+</br>
+</br>
+<a href="onas.html"><IMG SRC="O nas.jpg" width="100%"></a>
+</br>
+</br>
+</br>
+<a href="galeria.html"><IMG SRC="galeria.jpg" width="100%"></a>
+</br>
+</br>
+</br>
+<a href="kontakt.html"><IMG SRC="kontakt.jpg" width="100%"></a>
+
+
+		
+		</div>
+
+
+
+
+
+		<div id="treść">
+<center><h2><u><b>Wierzę w proste, ale znaczące wybory, które zmieniają nasze życie na lepsze</u></b></h2></center>
+</br>
+<center><IMG SRC="glowne.jpg" width="50%"></center>
+</br>
+<font face="Verdana">Już ponad 15 lat temu odkryłam jak odżywianie, i (nawet lekka) aktywność fizyczna wpływa na mój wygląd, a co najważniejsze, na to jak się czuję.
+Byłam wiecznie zmęczona, piłam po 6-8 kaw dziennie, żeby dotrwać do końca pracy, miałam poważne problemy z układem pokarmowym (zdiagnozowany przewlekły zespół jelita leniwego) i żaden z lekarzy nie dawał mi szansy na powrót do zdrowia, o płaskim brzuchu nawet nie wspomnę.
+Właśnie wtedy spotkałam osobę, która powiedziała, że mi pomoże. Dzięki jej zaleceniom zaczęłam dożywiać siebie i moją rodzinę produktami odżywczymi i naturalnymi suplementami, które stosujemy do dziś.
+Zaczęłam pogłębiać wiedzę jeżdżąc na szkolenia związane ze zdrowym trybem i stylem życia. Cały ten czas wspieram tych, którzy chcą zmienić swoje nawyki żywieniowe i poczuć się lepiej; wszystkich, którzy marzą o lepszej odporności, zrzuceniu zbędnych kilogramów i dożywieniu organizmu.
+Jesteśmy dla Was! Jeśli chcecie zapytać o zdrowe odżywianie, dożywianie, podnoszenie odporności z suplementami, chętnie podzielimy się swoją wiedzą i doświadczeniem.</font>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<center><font color="red"><u><b>Zapraszam na FB</u></b></font> 
+</br>
+</br>                             
+</br>
+</br>      
+<u><a href="https://www.facebook.com/ZdroweOdzywianieRazem">Zdrowe Odżywianie Razem</a> </u>  </center>     	
+   			
+</br>
+				
+		</div>
+
+
+
+
+
+
+
+		<div id="stopka">
+
+			
+		</div>
+		
+
+	
+
+
+	</div>
+
+
+
+</body>
+</html>
